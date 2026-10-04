@@ -32,3 +32,6 @@ jobs:
 
             Jak zopakovat:
             ${{ github.event.client_payload.reproSteps }}
+
+            Zařízení a systém:
+            ${{ github.event.client_payload.deviceInfo }}
