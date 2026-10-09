@@ -35,3 +35,6 @@ jobs:
 
             Zařízení a systém:
             ${{ github.event.client_payload.deviceInfo }}
+
+            Diagnostický log (log.txt, nejnovější řádky první):
+            ${{ github.event.client_payload.logText }}
